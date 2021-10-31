@@ -2,9 +2,6 @@
 <html>
   <body>
     <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>
     
@@ -30,18 +27,15 @@
 
   <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" />
 
-  <link rel="shortcut icon" type="image/x-icon" href="/" />
   <link rel="stylesheet" href="/assets/css/main.css" />
-  ---
-layout:bost
----
+
 </head>
 
     <nav>
   
     <a href="/" >Home</a>
   
-    <a href="/about.html" >About</a>
+    <a href="/about.html" >Books</a>
   
     <a href="/blog.html" >Blog</a>
   

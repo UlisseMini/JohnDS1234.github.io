@@ -1,67 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <body>
-    <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>
-    
-      Zariski
-    
-  </title>
-
-  <!-- Begin Jekyll SEO tag v2.7.1 -->
-<meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Zariski" />
-<meta name="author" content="jill" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Cayley-Hamilton is a well known theorem typically introduced in first year linear algebra classes. The proof in these classes are usually some variant of using the Jordan normal form, whose construction is a bit disturbing and its really not interesting. Even historically it is a bit messed up: Hamilton initially proved it for only linear functions on his quaternions, this is the 4 by 4 case of Cayley-Hamilton over R. Later Cayley went and proved it for the 2 by 2 and 3 by 3 cases by literally computing by hand(he really only published the 2 by 2 case and asked the reader to believe he verified the 3 by 3 case). However it was Frobenius who actually proved this theorem, in a 63 page article on it. Unfortunately the theorem is not named after Frobenius who really deserves the credit. This post will present a more interesting and less tedious approach to proving Cayley-Hamilton." />
-<meta property="og:description" content="Cayley-Hamilton is a well known theorem typically introduced in first year linear algebra classes. The proof in these classes are usually some variant of using the Jordan normal form, whose construction is a bit disturbing and its really not interesting. Even historically it is a bit messed up: Hamilton initially proved it for only linear functions on his quaternions, this is the 4 by 4 case of Cayley-Hamilton over R. Later Cayley went and proved it for the 2 by 2 and 3 by 3 cases by literally computing by hand(he really only published the 2 by 2 case and asked the reader to believe he verified the 3 by 3 case). However it was Frobenius who actually proved this theorem, in a 63 page article on it. Unfortunately the theorem is not named after Frobenius who really deserves the credit. This post will present a more interesting and less tedious approach to proving Cayley-Hamilton." />
-<link rel="canonical" href="http://localhost:4000/2021/08/05/Zariski.html" />
-<meta property="og:url" content="http://localhost:4000/2021/08/05/Zariski.html" />
-<meta property="og:site_name" content="Your awesome title" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-08-05T00:00:00-07:00" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Zariski" />
-<script type="application/ld+json">
-{"headline":"Zariski","dateModified":"2021-08-05T00:00:00-07:00","datePublished":"2021-08-05T00:00:00-07:00","url":"http://localhost:4000/2021/08/05/Zariski.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/08/05/Zariski.html"},"author":{"@type":"Person","name":"jill"},"description":"Cayley-Hamilton is a well known theorem typically introduced in first year linear algebra classes. The proof in these classes are usually some variant of using the Jordan normal form, whose construction is a bit disturbing and its really not interesting. Even historically it is a bit messed up: Hamilton initially proved it for only linear functions on his quaternions, this is the 4 by 4 case of Cayley-Hamilton over R. Later Cayley went and proved it for the 2 by 2 and 3 by 3 cases by literally computing by hand(he really only published the 2 by 2 case and asked the reader to believe he verified the 3 by 3 case). However it was Frobenius who actually proved this theorem, in a 63 page article on it. Unfortunately the theorem is not named after Frobenius who really deserves the credit. This post will present a more interesting and less tedious approach to proving Cayley-Hamilton.","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" />
-
-  <link rel="shortcut icon" type="image/x-icon" href="/" />
-  <link rel="stylesheet" href="/assets/css/main.css" />
-  ---
-layout:bost
 ---
-</head>
+layout: post
+author: John
 
-    <nav>
-  
-    <a href="/" >Home</a>
-  
-    <a href="/about.html" >About</a>
-  
-    <a href="/blog.html" >Blog</a>
-  
-</nav>
-
-    <a href="/"></a>
-<h1 class="post-title">Zariski</h1>
-<p class="post-date text-bold text-upcase">
-  
-    <span>August 2021</span>
-  
-</p>
-
-<div class="soopr-btn"
-   data-twitter="SooprCo"
->
-</div>
-
+---
+<title>Proof of Cayley-Hamilton using the Zariski Topology</title>
 <p>Cayley-Hamilton is a well known theorem typically introduced in first year linear algebra classes. The proof in these classes are usually some variant of using the Jordan normal form, whose construction is a bit disturbing and its really not interesting. Even historically it is a bit messed up: Hamilton initially proved it for only linear functions on his quaternions, this is the 4 by 4 case of Cayley-Hamilton over R. Later Cayley went and proved it for the 2 by 2 and 3 by 3 cases by literally computing by hand(he really only published the 2 by 2 case and asked the reader to believe he verified the 3 by 3 case). However it was Frobenius who actually proved this theorem, in a 63 page article on it. Unfortunately the theorem is not named after Frobenius who really deserves the credit. This post will present a more interesting and less tedious approach to proving Cayley-Hamilton.</p>
 
 <p>The Cayley-Hamilton theorem says that a matrix satisfies its own characteristic polynomial, i.e for each \(A \in M_n (K)\)  (n by n matrices over field K) we have the characteristic polynomial \(\phi_A (t) = \text{det}(A-t1)\) and that \(\phi_A (A)=0\) . Note that we cannot simply plug in \(A\) into the determinant, since \(\phi_A (A) \in M_n (K)\) but \(\text{det}(A-A1) \in K\) so this doesnt even make sense.
@@ -78,8 +20,4 @@ We add a final note to say that the Euclidean case was a specials case of this, 
 
 
 
-    <script type="text/javascript" async
- 	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-    </script>
-  </body>
-</html>
+

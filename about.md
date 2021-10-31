@@ -1,7 +1,39 @@
 ---
 layout: default
-title: About
+title: Books I have read
 ---
-# About page
+Books for which I have some solutions typed up, I have added a link to the solutions. I will update them periodically:
+[Lie groups by bump](/books/ch_2.pdf)
 
-This page tells you a little bit about me.
+Right now I am reading these books:
+<ul>
+ <li> "Lie groups" by Daniel bump. Really nice book so far, it started off with using representation theory to generalize fourier series which was really cute.</li>
+ <li>"A Course In Model Theory" by Katrin Tent and Martin Ziegler. I have been slowly reading this one, pretty good exposition so far.</li>
+ <li>"Elementary functional analysis" by Barbara D. MacCluer. This is a light read which is good because the harder analysis reads are always very dry.</li>
+ <li> "Algebraic Geometry" by Robin Hartshorne. Its classic, not much for me to add. </li>
+</ul>
+
+Here are some books I will read/finish reading in the future after this batch is finished:
+
+<ul>
+ <li>Daniel bump's "automorphic forms and representations". I want to go to arizona winterschool this year, and this book looks like a good starting point for the materials. I tried reading diamond and shurman but 3 chapters in i realized it was wordy in a bad way. I really like bump's exposition so I will go with this.</li>
+ <li> Neukirch's "algebraic number theory". I have read 2 chapters of this already, should fill in my algebraic number theory holes.</li>
+</ul>
+
+Here are books I have read in the past(I usually dont read entire books so I'll mention it if I only read a small part of it):
+<ul>
+ <li>Artin's "modern Algebra", The best intro algebra book in my opinion. The book got me interested in a lot of other math as it tells you about applications very nicely, for instance practically a whole chapter dedicated to the algebraic number theory of quadratic number fields. The exercises are really good and memorable, in particular my blog post on Cayley-Hamilton was inspired by the analytic proof i saw in its exercise years ago. </li>
+ <li>Atiyah-Macdonald "Introduction to Commutative algebra". I have mixed feelings about this book. Reading this book took me a few months and It was during the start of covid so grinding this book alongside everything else put me in quite a bit of a depression, which led me to quit math for almost a year. This book is fairly dry and fails to explain any of its intuition(geometric or otherwise). Its not until I read a bit of hartshorne I started appreciating what I learnt in this book. I would recommend not to do this book.</li>
+ <li>Lang's "algebra". Good reference, I learnt Galois theory out of it and it was pretty nice. </li>
+ <li>Rudin's "Principle of Mathmetical Analysis",the first 7 chapters. I can't add much other than that this is a classic. I came into it after already have done algebra and hence had some mathmetical maturity. I had a really good time as you could tell from all the typed up solutions.</li>
+ <li>Gamelin's "Complex analysis", the first 8 chapters. This is an equivalent of a semester of complex analysis. This book breaks the usual mathmetical exposition formula of Theorem-Proof style writing. This book feels more like a discussion I'd have with a professor in office hours, and I like it. Its also a light read and it has upwards of a dozen proof of the fundemental theorem of algebra which was interesting.</li>
+ <li>Stein and Shakarchi 2 (the measure theory one). I actually read this with one of my closest friends for her class on it, and for a dryish subject the book does a good enough job. I'd recommend this over the other alternatives I have skimmed.</li>
+ <li>Amir Dembo's notes for MAT 136,stochastic processes. The class was kind of a halfway between applications and theory, which I think I wouldnt do now but it helped me get back into math alongside the aforementioned friend. I'd recommend it to anyone who wants a light read about stochastic processes.</li>
+ <li>Hatcher's notes for pointset topology. These are honestly pretty good and I much prefer this than spending too much time on something like munkres to learn point set. You end up picking up most of the pointset you need anyways in applications, so I recommend reading these for a day or so and then moving on.</li>
+ <li>Hatcher's "algebraic topology", I read ch 1,2. I know this book is controversial but honestly its good for what it is. It relies very strongly on visual intuition and I liked it personally. The exercises are also very good at getting you used to thinking topologically. I'd recommend it for a first pass.I learnt cohomology and higher homotopy stuff from other random sources as I do think once I was pass ch2 my visual intuition for the topic was good enough to move onto something more rigorous.</li>
+ <li>Forster's "Lectures on Riemann Surface". This is one of the nicest books I have read in a while. It introduces a lot of concepts such as differential forms and sheaf cohomology in one of the nicest context, 1 dimensional complex manifolds. I only read the book for compact riemann surfaces (so only 2 of the 3 chapters). After reading this a lot of things I encountered in AG felt like natural generalizations of this theory to me. Highly recommend for people to check this out.</li>
+ <li>Ireland-Rosen, "A Classical Introduction to Modern Number Theory" (first 8 ish chapters). Very nice book to introduce to elementary number theory, and in particlar a lot about quadratic reciprocity and generalizations. I'd recommend this to people who have done algebra, as it is a relatively light reading. </li>
+ <li>Silverman's "rational points on elliptic curves"(ch1-5). One of the books I read after coming back into math.Its a nice enough introduction to the topics, and it discusses some really nice things (learning about weierstrass p function sent me into learning more about riemann surfaces for instance). The proofs are very tedious as this book is meant for undergrads, so they often don't use stronger techniques unfortunately. I'd recommend this book to survey the topics rather then getting bogged down in the details. </li>
+ <li>Daniel's "number fields" (ch1-4). Its a very nice book that introduces number fields. However the proofs become a bit drawn out as the author does not want to use commutative algebra at all. I would still recommend it as the exposition is nice and so are the problems, but I preferred neukirch (i read only 2 chapters of that) exposition for most of the topic just because commutative algebra makes life easier. </li>
+ <li>Pierre Guillot's "local class field theory", first 6 chapters. The book is something that can be learned with only galois theory. It is a very light read for the topic, and I learnt a lot from it (particularly about p-adics and infinite galois stuff). I recommend it for a light read on the topics, although I will probably use a different book when I want to learn class field theory.</li>
+</ul>
