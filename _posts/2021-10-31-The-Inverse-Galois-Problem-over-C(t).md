@@ -20,7 +20,7 @@
 
 </section>
 <section>
-<h2> Riemann surfaces and their function fields </h2>
+<h1> Riemann surfaces and their function fields </h1>
 <p>A riemann surface is a topological space \(X\), together with a collection of charts (called an atlas)\(\phi_i:U_i \longrightarrow V_i\) where \(U_i\) is an open subset of \(X\) and \(V_i\) an open subset of \(\mathbb{C}\) with \(\phi_i\) being a homeomorphism. This is to say that our space locally looks like the complex plane. We require the addition condition that for two charts \(\phi_i\) and \(\phi_j\) we should be able to transition holomorphically. That is to say \(\phi_i\phi_j^{-1}\) is a holomorphic map (which makes sense as this is a map between subsets of \(\mathbb{C}\). This condition exists to allow us to define holomorphic maps of riemann surfaces, I.e say a map \(f:X\longrightarrow \mathbb{C}\) is holomorphic if for each point has a chart with \(f\phi_i^{-1}\) is holomorphic. The transition maps being holomorphic means that if we had another chart around a point, we could simply transition to a chosen one holomorphically and this property would be preserved. We can similarly define a holomorphic map between two surfaces \(f:X\longrightarrow Y\) to be a map such that \(\phi_{yj} f \phi_{xi}^{-1}\) is always holomorphic. So we have essentially defined these surfaces that we can do complex analysis on. Now we say that two atlases on \(X\) are compatible if their union is also an atlas (i.e you can holomorphically tansition between the two atlases). Because of this when we talk about a Riemann surfaces, we just assume it has a maximal atlas on it.   </p>
 
 
@@ -34,7 +34,7 @@
 <p>Now we do a computation, for \(\mathscr{M}(\mathbb{CP}^1)\). Now since the Riemann sphere is compact, there are only finitely many poles for a meromorphic function (as the poles form a discrete set). So we can multiply by appropriate factors to get rid of the poles on the \(\mathbb{C}\) part, for example multiplying by \((x-1)^2\) would get rid of a pole of order \(2\) at \(x=1\). Now this meromorphic function restricted to the complex plane is holomorphic, and hence a power series. Notice that the power series now has to terminate, as otherwise the pole at infinity would not be finite. So this is really a polynomial, and since we multiplied by another polynomial to get to this form, our meromorphic function is a rational function. So \(\mathscr{M}(\mathbb{CP}^1)=\mathbb{C}(t)\). So to study field extensions of this field, we should  study holomorphic maps into the Riemann sphere.</p></section>
 
 <section>
-<h3> Holomorphic maps of compact surfaces are branched covering maps</h3>
+<h1> Holomorphic maps of compact surfaces are branched covering maps</h1>
 <p> If we have a map between Riemann surface, it locally looks like \(z\mapsto z^k\) for some k, the ramification index of \(z\).What this means is that for each holomorphic map \(f:Y\longrightarrow X\) and each point \(z\in Y\), we can find charts such that \(\psi f\phi^{-1}=z^k\). I refer the reader to Forster's "lecture on Riemann surfaces" theorem 2.1 for the proof.This implies the open mapping theorem, that holomorphic maps send open sets to open sets. Now notice that whenever \(k=1\) we have a local homeomorphism around that point, as \(f\) would be injective and open mapping theorem means the local inverse would be too.</p>
 
 <p> Now suppose we have a map \(f:Y\longrightarrow X\) is of compact riemann surfaces. Now consider the set of unramified points (points with \(k\geq 2\)) \(A\), then \(A\) is discrete. This is because the map locally looks like \(z^k\) and we can always take a small neighborhood not containing \(0\) on which this is a local homeomorphism. So we have a finite number of unramified points for maps between compact surfaces. Now the open mapping theorem gives us that whenever \(X\) is connected, \(f\) is surjective. This is because the image of \(Y\) would be both open and compact(and hence closed), and connected spaces only have trivial clopen sets. So now for each unramified point \(x\in X\), let \(y_i\) be the preimages, and then pick a neighborhood \(U\ni x\) and neighborhoods \(V_i\ni y_i\) with \(f:V_i \longrightarrow U\) a homeomorphism (we can do this because local homeomorphism). We can pick the \(V_i\) to be all disjoint and then \(f^{-1}(U)=\cup_i V_i\). So if we remove the ramified points we actually have a covering map. </p>
@@ -43,7 +43,7 @@
 </section>
 
 <section>
-<h5>The covering Automorphism group is the same as the Galois group</h5>
+<h1>The covering Automorphism group is the same as the Galois group</h1>
 
 <p> Lets say we have a covering map \(f':Y'\longrightarrow X'\) where \(X'\) is \(X\) with a finite set of (unramified) points removed, we can uniquely extend this to a branched cover (and hence a holomorphic map) of \(X\). See Forster theorem 8.4 for proof, and then theorem 8.5 to see that covering morphisms of \(Y'\) and \(Z'\) over \(X'\) extend uniquely to that of holomorphic maps between \(Y\) and \(Z\) (these are the unique spaces where the covering maps extend to) over \(X\). Notice the latter means each morphism of \(Y'\) to \(Z'\) induces a field homomorphism from \(\mathscr{M}(Z)\)to \()\mathscr{M}(Y)\) that fixed \(\mathscr{M}(X)\). In particular we have a morphism \(\text{Aut}(Y'|X')\longrightarrow \text{Gal}(Y|X)\). Now if the covering is galois then this is injective as different holomorphic maps induce different field automorphims. Now if the galois covering was of degree n, then its automorphism group is of order n(how one point is sent to another uniquely determines a cover automorphism). To show surjectivity, we want to show that the galois groups for the field extension also has order n.  </p>
 
@@ -51,7 +51,7 @@
 </section>
 
 <section>
-<h4> Combining all the ideas </h4>
+<h1> Combining all the ideas </h1>
 
 <p>Start with a group \(G\) generated by \(n\) elements. Take Riemann sphere with \(n+1\) points removed. This is homotopy equivalent to the wedge of \(n\) circles so its \(\pi_1\) is the free group on \(n\) elements. So this is the automorphism group of this spaces universal cover. Now we can take a subcover \(Y\) whose automorphism group is \(G\) by the galois theory of covering. We know by the last section that this induces an extension \(\mathscr{M}(Y)|\mathbb{C}(t)\) whose galois group is \(G\). We are done \(_\square\) </p>
 </section>
