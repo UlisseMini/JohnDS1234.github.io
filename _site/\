@@ -16,16 +16,16 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/%5C" />
-<meta property="og:url" content="http://localhost:4000/%5C" />
+<link rel="canonical" href="/%5C" />
+<meta property="og:url" content="/%5C" />
 <meta property="og:site_name" content="Your awesome title" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Your awesome title" />
 <script type="application/ld+json">
-{"headline":"Your awesome title","url":"http://localhost:4000/%5C","@type":"WebPage","author":{"@type":"Person","name":"jill"},"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@context":"https://schema.org"}</script>
+{"@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","url":"/%5C","author":{"@type":"Person","name":"jill"},"headline":"Your awesome title","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" />
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Your awesome title" />
 
   <link rel="stylesheet" href="/assets/css/main.css" />
 
